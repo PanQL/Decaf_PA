@@ -1,0 +1,25 @@
+
+prepare:
+
+1 jflex:
+     [java] Reading "src/decaf/frontend/Lexer.l"
+     [java] Constructing NFA : 303 states in NFA
+     [java] Converting NFA to DFA : 
+     [java] ...........................................................................................................................................................
+     [java] 159 states before minimization, 136 states in minimized DFA
+     [java] Old file "src/decaf/frontend/Lexer.java" saved as "src/decaf/frontend/Lexer.java~"
+     [java] Writing code to "src/decaf/frontend/Lexer.java"
+   [delete] Deleting: /home/pan/decaf_PA/decaf_PA4/src/decaf/frontend/Lexer.java~
+
+2 byacc:
+     [move] Moving 1 file to /home/pan/decaf_PA/decaf_PA4/src/decaf/frontend
+
+3 compile:
+    [javac] /home/pan/decaf_PA/decaf_PA4/build.xml:67: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 2 source files to /home/pan/decaf_PA/decaf_PA4/result/bin
+
+4 pack:
+      [jar] Building jar: /home/pan/decaf_PA/decaf_PA4/result/decaf.jar
+
+BUILD SUCCESSFUL
+Total time: 1 second

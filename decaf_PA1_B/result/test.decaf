@@ -1,0 +1,6 @@
+class TestClass { 
+    void err(){ 
+        if(;) 
+        x = 0; 
+    } 
+}

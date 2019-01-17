@@ -1,0 +1,16 @@
+program
+    class Main <empty>
+        func test voidtype
+            formals
+            stmtblock
+                if
+                    boolconst true
+                    if
+                        boolconst false
+                        assign
+                            varref x
+                            intconst 0
+                    else
+                        assign
+                            varref x
+                            intconst 1
